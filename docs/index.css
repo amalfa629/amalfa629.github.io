@@ -33,3 +33,60 @@ body{
 .my-info{
     margin-top: 20px;
 }
+
+
+
+.image-div,
+.name-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.social-div{
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+}
+.social-img{
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+    transition: 300ms;
+    filter: invert(100%);
+    border-radius: 100%;
+}
+.social-img:hover {
+    transform: translateY(-3px);
+    background: #1b4458;;
+    box-shadow: 0 0 100px #1b4458;;
+    border-radius: 100%;
+    filter:none;
+ }
+.name{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.profile-pic{
+    width: 130px;
+    border-radius: 100px;
+    object-fit: cover;
+    height: 130px;
+    transition: 300ms;
+    box-shadow: 3px 3px 100px white;
+}
+.profile-pic:hover{
+    transform: scale(1.5);
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.image-div .profile-pic:hover{
+    margin-top: 60px;
+    margin-bottom: 60px;  
+}
