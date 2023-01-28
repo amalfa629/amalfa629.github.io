@@ -1,0 +1,35 @@
+:root {
+    --card_width: 500px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --card_small: 60;
+    --card_medium: 66;
+    --card_large: 80;
+}
+body, html {
+    font-family: 'Playfair Display', serif;
+    color: #d8d8d8;
+}
+p,li,span,h2{
+    color: #d8d8d8;
+}
+
+ul{
+    list-style-type: circle;
+    text-align: left;
+}
+li{
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #90a1a3;
+    overscroll-behavior: none;
+}
+.my-info{
+    margin-top: 20px;
+}
