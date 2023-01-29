@@ -6,102 +6,143 @@
     --card_medium: 66;
     --card_large: 80;
 }
-body, button, html {
+
+body,
+button,
+html {
     font-family: 'Hind', serif;
     color: #000000;
 }
-p,li,span,h2{
+
+p,
+li,
+span,
+h2 {
     color: #000000;
 }
 
-ul{
+ul {
     list-style-type: circle;
     text-align: left;
 }
-li{
+
+li {
     padding-bottom: 3px;
     font-size: 18px;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     background-color: #d3d3d3;
     overscroll-behavior: none;
 }
-.taskbar{
-   	background-color: #ffffff; /* Green */
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
+
+.taskbar {
+    background-color: #ffffff;
+    /* Green */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     display: flex;
-  	justify-content: left;
+    justify-content: left;
 }
 
-.icon{
+.icon {
     align-items: center;
     margin-top: 5px;
-  	margin-left: 5px;
+    margin-left: 5px;
 }
-.name-div{
-  align-items: center;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+
+.name-div {
+    align-items: center;
+    margin: 10px;
 }
-.name{
+
+.name {
     font-size: 30px;
     font-weight: 500;
     margin: 0px;
 }
 
-.icon-pic{
+.icon-pic {
     width: 50px;
     height: 50px;
 }
+
 .menu button {
-float: left;
-  background-color: #ffffff; /* Green */
-  border: none;
-  color: black;
-  padding: 20px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
-  
+    float: left;
+    background-color: #ffffff;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 20px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+
 }
+
 /* Add a background color on hover */
 .menu button:hover {
-  background-color: #a9a9a9 ; /* Green */
+    background-color: #a9a9a9;
+    /* Green */
 }
+
 .menu button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+    border-right: none;
+    /* Prevent double borders */
 }
-.profile-div {
-  margin: 20px;
-  background-color: #ffffff; /* Green */
-  	border: none;
-  	color: white;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-    display: flex;
-  	justify-content: left;
-  	padding: 20px 20px;
-  	border-radius: 8px;
+.profile-div{
+  display: flex;
+  justify-content: center;
 }
+.image-div {
+    margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
 .profile-image {
-  width: 300px;
-  height: 300px
+    width: 500px;
+    height: 500px
 }
-.intro-div {
-  align-items: center;
-  margin: 10px;
-.profile-introduction {
-  font-size: 20px;
-    font-weight: 500;
+
+.text-div {
+    margin: 10px;
+}
+
+.profile-intro {
+    margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-size: 40px;
+  	color: #4f5356;
+    font-weight: 525;
+}
+.desc-div{
+    margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 8px;
+  	align-items: center;
+  	margin: 10px;
 }
