@@ -6,12 +6,12 @@
     --card_medium: 66;
     --card_large: 80;
 }
-body, html {
+body, button, html {
     font-family: 'Hind', serif;
-    color: #d8d8d8;
+    color: #000000;
 }
 p,li,span,h2{
-    color: #d8d8d8;
+    color: #000000;
 }
 
 ul{
@@ -27,44 +27,100 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #90a1a3;
+    background-color: #d3d3d3;
     overscroll-behavior: none;
 }
-.my-info{
-    margin-top: 20px;
+.taskbar{
+   	background-color: #ffffff; /* Green */
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+    display: flex;
+  	justify-content: center;
 }
 
-
-
-.image-div,
-.name-div{
-    display: flex;
-    justify-content: center;
+.image-div{
     align-items: center;
     margin-top: 5px;
+}
+.name-div{
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .name{
     font-size: 30px;
     font-weight: 500;
     margin: 0px;
-    margin-bottom: 10px;
 }
 
-.profile-pic{
-    width: 130px;
-    border-radius: 100px;
-    object-fit: cover;
-    height: 130px;
-    transition: 300ms;
-    box-shadow: 3px 3px 100px white;
+.icon-pic{
+    width: 50px;
+    height: 50px;
 }
-.profile-pic:hover{
-    transform: scale(1.5);
-    height: 200px;
-    width: 200px;
-    cursor: pointer;
+.menu{
 }
-.image-div .profile-pic:hover{
-    margin-top: 60px;
-    margin-bottom: 60px;  
+.home-button{
+  float: left;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-left: 0.5px solid black;
+}
+.education-button{
+  float: left;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-left: 0.5px solid black;
+}
+.projects-button{
+  float: left;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-left: 0.5px solid black;
+}
+.skills-button{
+  float: left;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-left: 0.5px solid black;
+}
+.about-button{
+  float: left;
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: black;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
 }
