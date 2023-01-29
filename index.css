@@ -32,24 +32,21 @@ body{
 }
 .taskbar{
    	background-color: #ffffff; /* Green */
-  	border: none;
-  	color: white;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
     display: flex;
-  	justify-content: center;
+  	justify-content: left;
 }
 
-.image-div{
+.icon{
     align-items: center;
     margin-top: 5px;
+  	margin-left: 5px;
 }
 .name-div{
   align-items: center;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
 }
 .name{
     font-size: 30px;
@@ -61,10 +58,8 @@ body{
     width: 50px;
     height: 50px;
 }
-.menu{
-}
-.home-button{
-  float: left;
+.menu button {
+float: left;
   background-color: #ffffff; /* Green */
   border: none;
   color: black;
@@ -73,54 +68,38 @@ body{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-left: 0.5px solid black;
-}
-.education-button{
-  float: left;
-  background-color: #ffffff; /* Green */
-  border: none;
-  color: black;
-  padding: 20px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-left: 0.5px solid black;
-}
-.projects-button{
-  float: left;
-  background-color: #ffffff; /* Green */
-  border: none;
-  color: black;
-  padding: 20px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-left: 0.5px solid black;
-}
-.skills-button{
-  float: left;
-  background-color: #ffffff; /* Green */
-  border: none;
-  color: black;
-  padding: 20px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-left: 0.5px solid black;
-}
-.about-button{
-  float: left;
-  background-color: #ffffff; /* Green */
-  border: none;
-  color: black;
-  padding: 20px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
+  
+}
+/* Add a background color on hover */
+.menu button:hover {
+  background-color: #a9a9a9 ; /* Green */
+}
+.menu button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+.profile-div {
+  margin: 20px;
+  background-color: #ffffff; /* Green */
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+    display: flex;
+  	justify-content: left;
+  	padding: 20px 20px;
+  	border-radius: 8px;
+}
+.profile-image {
+  width: 300px;
+  height: 300px
+}
+.intro-div {
+  align-items: center;
+  margin: 10px;
+.profile-introduction {
+  font-size: 20px;
+    font-weight: 500;
 }
