@@ -1,0 +1,46 @@
+.projects-div > *{
+	display :block;
+    width: 100%;
+}
+.project-row {
+	display: flex;
+}
+.project-div {
+	float: left;
+	width: 45%;
+	margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.header-div {
+}
+.project-title {
+	display: inline-block;
+	font-size: 25px;
+	font-weight: 600;
+}
+.github-project {
+	display: inline-block;
+	float: right;
+  align-items: center;
+  height: 70px;
+}
+.components-div {
+}
+.components {
+	font-weight: 700;
+	display: inline-block;
+}
+.components-info {
+	display: inline-block;
+}
+.project-description {
+	float: left;
+	display: block;
+	width: 100%;
+}

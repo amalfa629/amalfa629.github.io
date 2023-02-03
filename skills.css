@@ -1,0 +1,35 @@
+.skills-div {
+	display: flex;
+}
+.skills {
+	float: left;
+	width: 45%;
+	margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.interests {
+	float: right;
+	width: 45%;
+	margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.title {
+	font-size: 25px;
+	font-weight: 600;
+}
+.list {
+    list-style-type: circle;
+    text-align: left;
+}
